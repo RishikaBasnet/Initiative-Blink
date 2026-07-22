@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(24px);
+    will-change: transform, opacity;
+    animation: fadeUp 900ms ease-out forwards;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #013927;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ── Nav ── */
+nav {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2f6e53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    gap: 20px;
+}
+
+ul li a {
+    display: block;
+    color: #E7DBA3;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.button-link {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.button-link img {
+    width: 40px;
+    height: auto;
+    display: block;
+}
+
+/* ── Shared main layout ── */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ── Home page ── */
+.logo {
+    display: block;
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto;
+    height: auto;
+}
+
+.motto {
+    text-align: center;
+    font-size: 50px;
+    color: #E7DBA3;
+    margin: 10px 0;
+}
+
+p {
+    color: #E7DBA3;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 45px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+    font-size: x-large;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0);
+}
+
+.quiz-links {
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.button-link2,
+.button-link3,
+.button-link4 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-link2 img,
+.button-link3 img,
+.button-link4 img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* ── Quiz pages ── */
+.title-logo {
+    display: block;
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto;
+    height: auto;
+}
+
+.section-img {
+    display: block;
+    width: clamp(260px, 80%, 600px);
+    height: auto;
+    margin: 16px auto;
+    border-radius: 10px;
+}
+
+.jan {
+    text-align: center;
+    font-size: 25px;
+    color: #E7DBA3;
+}
+
+.arn {
+    text-align: center;
+    font-size: 15px;
+    color: #E7DBA3;
+}
+
+.quiz-container {
+    color: #E7DBA3;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.result {
+    color: #E7DBA3;
+    font-size: 30px;
+    text-align: center;
+}
