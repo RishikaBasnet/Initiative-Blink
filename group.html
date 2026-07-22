@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blink</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="button-link">
+                    <img src="BlinkLogo.png" alt="Blink logo">
+                </a>
+            </li>
+            <li>
+                <a href="individual.html">Individual</a>
+            </li>
+            <li>
+                <a href="group.html">Group</a>
+            </li>
+            <li>
+                <a href="couple.html">Couple</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Title Area-->
+        <img class="fade-up title-logo" src="Group Activities.png" alt="Group Activities">
+
+        <h1 class="jan">Going out with your friends, family, coworkers?</h1>
+        <p class="arn">Plan a perfect outing, personalized just for you!</p>
+
+        <div class="quiz-container">
+            <div id="question" class="question"></div>
+            <label class="option">
+                <input type="radio" name="option" value="1" />
+                <span class="option1"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="2" />
+                <span class="option2"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="3" />
+                <span class="option3"></span>
+            </label>
+            <div class="controls">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+            </div>
+        </div>
+
+        <div class="result"></div>
+
+        <img class="section-img" src="groupphoto.png" alt="Group activity">
+    </main>
+
+    <script src="group.js"></script>
+</body>
+</html>
