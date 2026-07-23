@@ -42,10 +42,10 @@ Initiative-Blink/
 │   └── buttons/
 │
 ├── pages/
-│   ├── [Couple]/
-│   ├── [Group]/
-│   ├── [Individual]/
-|   |── [Home]/
+│   ├── Couple/
+│   ├── Group/
+│   ├── Individual/
+|   |── Home/
 │   └── style.css
 │
 ├── index.html
