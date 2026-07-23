@@ -7,7 +7,7 @@ Initiative Blink was created as a hackathon project for **IslandHacks 2025**, my
 
 ## Repository Overview
 
-This repository contains the source files for the Initiative Blink website. For organizational purposes, the repository has been simplified and reorganized to make the file structure easier to navigate and understand.
+This repository contains the source files for Initiative Blink. 
 
 The repository is primarily divided into two main folders:
 
